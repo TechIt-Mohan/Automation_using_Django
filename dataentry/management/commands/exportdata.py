@@ -1,4 +1,5 @@
 import csv, datetime
+from datetime import datetime
 from django.apps import apps
 from django.core.management.base import BaseCommand, CommandParser
 from dataentry.models import Student, Customer
